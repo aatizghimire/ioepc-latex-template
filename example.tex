@@ -70,8 +70,6 @@
 \newcommand{\setheaderfooter}{
 	\pagestyle{fancy}
 	\rhead{\itshape\nouppercase{Write Project Title Here}}
-	\lfoot{Write Name of Department Here}
-	\rfoot{Page{\textit \thepage}}
 	\renewcommand{\headrulewidth}{0.7pt}
 	\renewcommand\footrule{\begin{minipage}{1\textwidth}
 			\hrule width \hsize height 2pt \kern 1mm \hrule width \hsize   
@@ -295,6 +293,54 @@
 	%End of ABSTRACT page 	
 	
 	
+	%-----CONTENT page-----%
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{section}{\textit{CONTENT}}
+	\tableofcontents
+	
+	
+	
+	%-----List of figures page-----%
+	\phantomsection
+	\listoffigures
+	\addcontentsline{toc}{section}{\textit{LIST OF FIGURES}}
+	
+	%-----List of tables page-----%
+	\phantomsection
+	\listoftables
+	\addcontentsline{toc}{section}{\textit{LIST OF TABLES}}
+	
+	%-----NOMENCLATURE page-----%
+	\newpage
+	\phantomsection
+	\setlength{\voffset}{-1.5in}
+	\addcontentsline{toc}{section}{\textit{NOMENCLATURE}}
+	\renewcommand{\nomname}{\begin{center}\fontsize{18}{0} \textbf{NOMENCLATURE}\end{center}}
+	\nomenclature{$x,y,z$}{Cartesian coordinate system for a laminate (Global coordinates)}
+	\nomenclature{$\alpha$}{Inclination of the fibers of a lamina with the positive direction of laminate X-axis, measures in anticlockwise direction}
+	\nomenclature{$\beta$}{Beta is a symbol}
+	\printnomenclature
+	
+	%-----ABBREVIATIONS page-----%
+	\newpage
+	\phantomsection
+	\setlength{\voffset}{0in}
+	\addcontentsline{toc}{section}{\textit{ABBREVIATIONS}}
+	\begin{center}\fontsize{18}{0} \textbf{ABBREVIATIONS}\end{center}
+	\setstretch{1.15}
+	MANET \hspace*{4\baselineskip}Mobile Adhoc Network\\\\
+	AODV \hspace*{4.5\baselineskip}Adhoc On-Demand Distance Vector Routing Protocol\\\\
+	RREQ \hspace*{4.6\baselineskip}Route Request\\\\
+	RREP \hspace*{4.5\baselineskip} Route Reply\\\\
+	CRRT \hspace*{4.5\baselineskip} Collect Route Reply Table\\\\
+	DRI  \hspace*{5.1\baselineskip} Data Routing Information\\\\
+	DSR  \hspace*{5.2\baselineskip}Dynamic Source Routing\\\\
+	CREQ  \hspace*{4.7\baselineskip}Route Confirmation Request\\\\
+	CREP  \hspace*{4.7\baselineskip}Route Confirmation Reply\\\\
+	BBN \hspace*{5.2\baselineskip}Backbone Node
+		
+	
 	%-----------------Chapter -1---------------%
 	%-----Chapter 1 page-----%
 	\newpage
@@ -367,8 +413,7 @@
 	\subsection{Classical beam theory (CBT)}
 	Classical beam theory (CBT). Analysis of the work! \cite{article}
 	\section{Objectives of present work}
-	Objectives of present work
-	
+	Objectives of present work.
 	
 	% ----------- End of Chapter--------------%
 	
@@ -388,5 +433,6 @@
 		\bibliographystyle{ieeetr}
 		\endgroup
 	\end{spacing}
+	% --------- End of REFERENCES page-------------- %
 	
 \end{document}
