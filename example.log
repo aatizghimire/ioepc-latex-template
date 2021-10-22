@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  23 OCT 2021 03:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  23 OCT 2021 03:54
 entering extended mode
 **./example.tex
 (example.tex
@@ -648,7 +648,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<./Assets/Logo.png, id=23, 2370.8575pt x 2659.9375pt>
+<./Assets/Logo.png, id=91, 2370.8575pt x 2659.9375pt>
 File: ./Assets/Logo.png Graphic file (type png)
 <use ./Assets/Logo.png>
 Package pdftex.def Info: ./Assets/Logo.png  used on input line 96.
@@ -695,11 +695,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--210
 
  []
 
-
-Overfull \hbox (28.78325pt too wide) in paragraph at lines 211--231
- []
- []
-
 [3
 
 ]
@@ -715,27 +710,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--257
 [4
 
 ]
-Overfull \hbox (18.11781pt too wide) in paragraph at lines 267--279
-\OT1/cmr/m/n/12 De-vel-op-ment (ICI-MOD), Na-tional Aero-nau-tics and Space Ad-
-min-is-tra-tion (NASA)
+Overfull \hbox (13.69798pt too wide) in paragraph at lines 267--277
+\OT1/cmr/m/n/14.4 Moun-tain De-vel-op-ment (ICI-MOD), Na-tional Aero-nau-tics a
+nd Space
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--279
+Underfull \hbox (badness 10000) in paragraph at lines 267--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--279
+Underfull \hbox (badness 10000) in paragraph at lines 267--277
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 293--297
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 292--296
 
  []
 
-[6]
+[7]
+Chapter 1.
+[1
+
+]
+<./Graphics/Sample.png, id=140, 150.5625pt x 150.5625pt>
+File: ./Graphics/Sample.png Graphic file (type png)
+<use ./Graphics/Sample.png>
+Package pdftex.def Info: ./Graphics/Sample.png  used on input line 326.
+(pdftex.def)             Requested size: 142.26378pt x 142.27771pt.
+
+Overfull \hbox (23.25562pt too wide) in paragraph at lines 336--347
+[][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -744,49 +753,68 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7]
+[2 <./Graphics/Sample.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+Chapter 2.
+
+Overfull \hbox (7.53445pt too wide) in paragraph at lines 363--363
+|[]\OT1/cmr/bx/n/17.28 Elastostatics of lam-i-nated com-pos-ite beams| 
+ []
+
+[4
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 381.
+
+(example.bbl)
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8] (example.aux)
+[5] (example.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
 Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: CAE711C96DC9406278CA2F250E849C6D;495.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 292 ({)
-### bottom level 
+(rerunfilecheck)             Checksum: BACC5128265F2626C09CF7454EEE05D5;3020.
+ ) 
 Here is how much of TeX's memory you used:
- 14551 strings out of 478927
- 225718 string characters out of 2852060
- 636862 words of memory out of 3000000
- 32137 multiletter control sequences out of 15000+600000
- 409756 words of font info for 48 fonts, out of 8000000 for 9000
+ 14637 strings out of 478927
+ 227009 string characters out of 2852060
+ 637047 words of memory out of 3000000
+ 32189 multiletter control sequences out of 15000+600000
+ 411775 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,11n,108p,1104b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\jarvis\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
-/ec/dpi600\tcbx1728.pk><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/jarvis/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jarvis/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on example.pdf (9 pages, 394773 bytes).
+ 110i,12n,108p,1104b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\jarvis\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcb
+x1728.pk><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbxti10.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jarvis/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jarvis/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jarvis/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
+/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr7.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsl12.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on example.pdf (13 pages, 625825 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

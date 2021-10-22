@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{book}
+P.~Babington, {\em The title of the work}, vol.~4 of {\em 10}.
+\newblock The address: The name of the publisher, 3~ed., 7 1993.
+\newblock An optional note.
+
+\bibitem{conference}
+P.~Draper, ``The title of the work,'' in {\em The title of the book}
+  (T.~editor, ed.), vol.~4 of {\em 5}, (The address of the publisher), p.~213,
+  The organization, The publisher, 7 1993.
+\newblock An optional note.
+
+\bibitem{article}
+P.~Adams, ``The title of the work,'' {\em The name of the journal}, vol.~4,
+  pp.~201--213, 7 1993.
+\newblock An optional note.
+
+\end{thebibliography}
