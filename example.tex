@@ -1,0 +1,88 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Final Year Project Report LaTeX Template for
+% Institute of Engineering, Purwanchal Campus. 
+% Version 1.0
+%
+% Original Author:
+% Aatiz Ghimire (hello@aatizghimire.com.np)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper, 12pt ]{report}
+
+% metadata for Pdf file, visible from File -> Properties dialog in Adobe reader
+% also required for titles when viewed in web browser
+
+
+% Example of Metadata for Pdf File.
+%	pdftitle    = {Title of your Project Report},
+%	pdfsubject  = {Final Year Project Report},
+%	pdfauthor   = {Aatiz Ghimire, 
+%		Arun Katwal, 
+%		Pradeep Shrestha },    
+%	pdfkeywords = {LaTeX, Template, Project}
+
+
+
+%-----All the packages required are imported here-----%
+
+% On 1st Compile, it make time to install packages. so, be patient.
+
+% setspace package control line spacing in the text
+\usepackage{setspace}
+
+% geometry package control Page Size and Margin
+\usepackage[left=1.5in,right=1.25in,top=1.25in,bottom=1.25in]{geometry}
+
+% nomencl package control abbrevations and symbols
+\usepackage{nomencl}
+\makenomenclature
+
+% fancyhdr package to customize fancy header and footer
+\usepackage{fancyhdr}
+
+% hyperref package to hyperlinking content in the document
+\usepackage{hyperref}
+
+% bigstrut package to strut for opening up tabular space.
+\usepackage{bigstrut}
+
+% cite package to bibliography and reference management
+\usepackage{cite}
+
+\hypersetup{
+	colorlinks,
+	citecolor=blue,
+	filecolor=blue,
+	linkcolor=blue,
+	urlcolor=blue
+}
+
+% titlesec package to create parts, chapters, sections, sub sections in document
+\usepackage{titlesec}
+
+% glossaries package to add glossaries in document
+\usepackage{glossaries}
+\makeglossaries
+
+%-----Add New Command for Header Footer Settings-----%
+\newcommand{\setheaderfooter}{
+	\pagestyle{fancy}
+	\rhead{\itshape\nouppercase{Write Project Title Here}}
+	\lfoot{Write Name of Department Here}
+	\rfoot{Page{\textit \thepage}}
+	\renewcommand{\headrulewidth}{0.7pt}
+	\renewcommand\footrule{\begin{minipage}{1\textwidth}
+			\hrule width \hsize height 2pt \kern 1mm \hrule width \hsize   
+		\end{minipage}\par}
+}
+
+\begin{document}
+	% First Page of Report
+	% Add Report Title Page Here %
+	\pagenumbering{gobble}
+	
+	\setheaderfooter
+	\newpage 
+	Testing page1...
+	\newpage 
+	Testing page2
+\end{document}
