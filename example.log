@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  23 OCT 2021 01:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  23 OCT 2021 03:22
 entering extended mode
 **./example.tex
 (example.tex
@@ -648,7 +648,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<./Assets/Logo.png, id=3, 2370.8575pt x 2659.9375pt>
+<./Assets/Logo.png, id=23, 2370.8575pt x 2659.9375pt>
 File: ./Assets/Logo.png Graphic file (type png)
 <use ./Assets/Logo.png>
 Package pdftex.def Info: ./Assets/Logo.png  used on input line 96.
@@ -662,8 +662,80 @@ png>]pdfTeX warning (ext4): destination with the same identifier (name{page.})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.161 	\newpage
+l.164 	\newpage
                 [2]
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 170.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--177
+
+ []
+
+[2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 206--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--210
+
+ []
+
+
+Overfull \hbox (28.78325pt too wide) in paragraph at lines 211--231
+ []
+ []
+
+[3
+
+]
+
+LaTeX Font Warning: Font shape `TS1/cmr/bx/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 245.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--257
+
+ []
+
+[4
+
+]
+Overfull \hbox (18.11781pt too wide) in paragraph at lines 267--279
+\OT1/cmr/m/n/12 De-vel-op-ment (ICI-MOD), Na-tional Aero-nau-tics and Space Ad-
+min-is-tra-tion (NASA)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--279
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 293--297
+
+ []
+
+[6]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -672,12 +744,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.165 	\newpage
-                [3]
+[7]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -691,30 +758,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.167 \end{document}
-                     [4] (example.aux)
+[8] (example.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.72pt have occurred.
+
 Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+(rerunfilecheck)             Checksum: CAE711C96DC9406278CA2F250E849C6D;495.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 292 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 14523 strings out of 478927
- 225428 string characters out of 2852060
- 636857 words of memory out of 3000000
- 32123 multiletter control sequences out of 15000+600000
- 408750 words of font info for 45 fonts, out of 8000000 for 9000
+ 14551 strings out of 478927
+ 225718 string characters out of 2852060
+ 636862 words of memory out of 3000000
+ 32137 multiletter control sequences out of 15000+600000
+ 409756 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,11n,108p,1104b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmti12.pfb>
-Output written on example.pdf (4 pages, 368069 bytes).
+ 110i,11n,108p,1104b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\jarvis\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\tcbx1728.pk><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/jarvis/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jarvis/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on example.pdf (9 pages, 394773 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
