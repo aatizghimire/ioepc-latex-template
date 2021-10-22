@@ -63,6 +63,9 @@
 \usepackage{glossaries}
 \makeglossaries
 
+%Graphics to include photos from files
+\usepackage{graphicx}
+
 %-----Add New Command for Header Footer Settings-----%
 \newcommand{\setheaderfooter}{
 	\pagestyle{fancy}
@@ -76,10 +79,86 @@
 }
 
 \begin{document}
-	% First Page of Report
+	% Front Page of Report
 	% Add Report Title Page Here %
 	\pagenumbering{gobble}
+	\Large
+	{
+		{\bf
+			\begin{center}TRIBHUVAN UNIVERSITY \end{center}
+			\begin{center}Institute Of Engineering \end{center}
+			\begin{center} Purwanchal Campus, Dharan\end{center}
+		}
+	}
+	\vspace*{\baselineskip}
 	
+	%Logo of Tribhuvan University
+	\begin{center}\includegraphics[scale=0.05]{./Assets/Logo.png}\end{center}
+	
+	\large
+	{
+		\vspace*{\baselineskip}
+		{\bf
+			\begin{center}Final Year Project Report\end{center}
+			\begin{center}On \end{center}
+			\begin{center}`` Write your Project Title Here'' \end{center}
+			\begin{center}[Code No: -----]\end{center}
+		}
+	}
+	\vspace*{\baselineskip}
+	\large\begin{center}\bf{Submitted by}\end{center}
+	%Project Member Name
+	\large\begin{center}\bf{Member A}\end{center}
+	\large\begin{center}\bf{Member B}\end{center}
+	\large\begin{center}\bf{Member C}\end{center}
+	\large\begin{center}\bf{Member D}\end{center}
+	
+	\vspace*{\baselineskip}
+	\large\begin{center}\bf{Submitted to}\end{center}
+	\large\begin{center}\bf{(Department Name)}\end{center}
+	\large\begin{center}\bf{Month,Year}\end{center}
+	
+	\newpage
+	%End of Front Page of Report
+	
+	%First Page of Report
+		\large
+	{
+		{\bf
+			\begin{center}Write Your Project Title Here\end{center}
+		}
+		\begin{center}[Code No: -----]\end{center}
+	}
+	\vspace*{\baselineskip}
+	
+	\large\begin{center}Submitted by\end{center}
+	%Project Member Name
+	\large\begin{center}Member A\end{center}
+	\large\begin{center}Member B\end{center}
+	\large\begin{center}Member C\end{center}
+	\large\begin{center}Member D\end{center}
+	\vspace*{\baselineskip}
+	
+	%Project Supervisor
+	\large\begin{center}Project Supervisor\end{center}
+	\large\begin{center}Name of Project Supervisor\end{center}
+	\large\begin{center}Designation\end{center}
+	\large\begin{center}Department Name\end{center}
+	
+	\vspace*{\baselineskip}
+	\large\begin{center}A final year project submitted in partial fulfillment of the requirement\end{center}
+	\large\begin{center}for the \end{center}
+	\large\begin{center}Degree of Bachelor of Engineering in -------- Engineering\end{center}
+	\vspace*{\baselineskip}
+	
+	%Name of Department
+	\large\begin{center}Department Name\end{center}
+	\large\begin{center}Institute of Engineering, Purwanchal Campus, \end{center}
+	\large\begin{center}Dharan, Sunsari \end{center}
+	\large\begin{center}Nepal\end{center}
+	\large\begin{center}Month,Year\end{center}
+	
+	\newpage
 	\setheaderfooter
 	\newpage 
 	Testing page1...

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  21 OCT 2021 01:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  23 OCT 2021 01:07
 entering extended mode
 **./example.tex
 (example.tex
@@ -510,6 +510,28 @@ Package: glossary-tree 2021/09/20 v4.47 (NLCT)
 
 Package glossaries Info: Writing glossary file example.glo on input line 64.
 
+(C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen179
+\Gin@req@width=\dimen180
+)
 (C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
 ftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
@@ -518,24 +540,24 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 ) (example.aux)
 \openout1 = `example.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -578,27 +600,8 @@ Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
-
-(C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
-f
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-
-(C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
-kii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count311
-\scratchdimen=\dimen179
-\scratchbox=\box61
-\nofMPsegments=\count312
-\nofMParguments=\count313
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count314
-\MPscratchDim=\dimen180
-\MPnumerator=\count315
-\makeMPintoPDFobject=\count316
-\everyMPtoPDFconversion=\toks36
-)))
-Package hyperref Info: Link coloring ON on input line 78.
+)
+Package hyperref Info: Link coloring ON on input line 81.
 
 (C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -610,16 +613,57 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count317
+\c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 78.
-LaTeX Info: Redefining \pageref on input line 78.
-LaTeX Info: Redefining \nameref on input line 78.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
  (example.out) (example.out)
 \@outlinefile=\write6
 \openout6 = `example.out'.
 
 
+(C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count312
+\scratchdimen=\dimen181
+\scratchbox=\box61
+\nofMPsegments=\count313
+\nofMParguments=\count314
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen182
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
+\everyMPtoPDFconversion=\toks36
+)
+(C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\jarvis\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+<./Assets/Logo.png, id=3, 2370.8575pt x 2659.9375pt>
+File: ./Assets/Logo.png Graphic file (type png)
+<use ./Assets/Logo.png>
+Package pdftex.def Info: ./Assets/Logo.png  used on input line 96.
+(pdftex.def)             Requested size: 118.54982pt x 133.00467pt.
+ [1
+
+\openout4 = `example.ist'.
+
+{C:/Users/jarvis/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Assets/Logo.
+png>]pdfTeX warning (ext4): destination with the same identifier (name{page.}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.161 	\newpage
+                [2]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -628,11 +672,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[1{C:/Users/jarvis/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
-
-\openout4 = `example.ist'.
-
-]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.165 	\newpage
+                [3]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -650,25 +695,26 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 \end{document}
-                    [2] (example.aux)
+l.167 \end{document}
+                     [4] (example.aux)
 Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14202 strings out of 478927
- 220174 string characters out of 2852060
- 627741 words of memory out of 3000000
- 31827 multiletter control sequences out of 15000+600000
- 407539 words of font info for 41 fonts, out of 8000000 for 9000
+ 14523 strings out of 478927
+ 225428 string characters out of 2852060
+ 636857 words of memory out of 3000000
+ 32123 multiletter control sequences out of 15000+600000
+ 408750 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,11n,108p,1104b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmti12.pfb>
-Output written on example.pdf (2 pages, 26071 bytes).
+/cmbx12.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr12.pfb><C:/Users/jarvis/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmti12.pfb>
+Output written on example.pdf (4 pages, 368069 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
