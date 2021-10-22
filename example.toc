@@ -2,12 +2,12 @@
 \contentsline {section}{\textit {CERTIFICATE}}{iii}{section*.2}%
 \contentsline {section}{\textit {COPYRIGHT}}{iv}{section*.3}%
 \contentsline {section}{\textit {ACKNOWLEDGEMENTS}}{v}{section*.4}%
-\contentsline {section}{\textit {ABSTRACT}}{vii}{section*.5}%
-\contentsline {section}{\textit {CONTENT}}{viii}{section*.6}%
-\contentsline {section}{\textit {LIST OF FIGURES}}{x}{chapter*.9}%
-\contentsline {section}{\textit {LIST OF TABLES}}{xi}{chapter*.11}%
-\contentsline {section}{\textit {NOMENCLATURE}}{xii}{section*.12}%
-\contentsline {section}{\textit {ABBREVIATIONS}}{xii}{section*.13}%
+\contentsline {section}{\textit {ABSTRACT}}{vi}{section*.5}%
+\contentsline {section}{\textit {CONTENT}}{vii}{section*.6}%
+\contentsline {section}{\textit {LIST OF FIGURES}}{ix}{chapter*.9}%
+\contentsline {section}{\textit {LIST OF TABLES}}{x}{chapter*.11}%
+\contentsline {section}{\textit {NOMENCLATURE}}{xi}{section*.12}%
+\contentsline {section}{\textit {ABBREVIATIONS}}{xi}{section*.13}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}General}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Subsection}{1}{subsection.1.1.1}%
